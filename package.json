@@ -1,0 +1,14 @@
+{
+  "name": "parmeus-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:moblabgames/parmeus-docs.git",
+  "author": "Howard Chen <howard.chen@moblab.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "docsify serve docs"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
