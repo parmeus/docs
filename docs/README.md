@@ -1,7 +1,5 @@
 # Overview
 
-# Overview
-
 ## Introduction
 
 Parmeus is a decentralized network for users to create, grow and own their digital selves. We
