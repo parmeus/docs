@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 <!-- ![Logo](/imgs/parmeus-logo-white.png) -->
-## Documentation
+## Dev-Center
 * [Overview](README.md)
 * [Principle](principle.md)
 * [Concept](#)
