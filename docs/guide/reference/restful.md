@@ -3,7 +3,7 @@
 # RESTful API
 
 ## Recommendation of Similarities
-This API is used for getting some similarities recommendation of specific criteria. The criteria could be an address or specific traits combination.
+This API is used for getting some similarities recommendation (digitalSouls) of specific digitalSoul.
 
 ### Structure
 
@@ -19,30 +19,30 @@ Requested body shall have Content-Type of application/json. It could have the fo
 
 | Field       | Type    | Description                                                  |
 | ----------- | ------- | ------------------------------------------------------------ |
-| digitalSelf | HashMap | The digitalSelf which is specified by a concrete address or a traits combination |
+| digitalSelf | DigitalSoul | The DigitalSoul which is specified by a concrete address or traits specification |
 | options     | HashMap | The options for the recommendation query. It could support subfields like sort, count et. |
-| filter      | HashMap | The filter option for the result of recommendation. It could |
+| filter      | HashMap | The filter option to specify inputs for recommendation engine. |
 
-The DigitalSoul type is a HashMap with either an address field or a traits field.
+The `DigitalSoul` type is a HashMap with either an address field or a traits field.
 
 | Field   | Type                    | Description                                                  |
 | ------- | ----------------------- | ------------------------------------------------------------ |
-| address | String                  | An address of blockchain which represent a digitalSelf user. |
-| traits  | HashMap<String, Number> | A HashMap with trait id as key and score (0 ~ 100) as value, which represents a virtual digitalSelf with the traits combination. |
+| address | String                  | Wallet address which represent a digitalSoul user. |
+| traits  | HashMap<String, Number> | A traits specification with trait id as key and score (0 ~ 100) as value, which represents a virtual digitalSoul. |
 
 The `option` field could have the following subfields:
 
 | Field            | Type    | Description                                                  |
 | ---------------- | ------- | ------------------------------------------------------------ |
-| sort             | String  | How to sort result similarities. It could be "desc" (sort by similarity descend order) or "asc" (sort by similarity ascend order) |
+| sort             | String  | How to sort result similarities. It could be "desc" (sort by similarity descend order) or "asc" (sort by similarity ascend order). |
 | count            | Integer | How many results are expected.                               |
 | similarityMatrix | Boolean | Whether return similarityMatrix. It is the orthogonal matrix of the requested digitalSoul and result digitalSouls. The matrix represents the similarity of each digitalSoul to others. |
 
-The filter field could have the following subfields:
+The `filter` field could have the following subfields:
 
 | Field  | Type         | Description                               |
 | ------ | ------------ | ----------------------------------------- |
-| Traits | List<String> | a list of trait ids that works as filter. |
+| Traits | List<String> | A list of trait ids that works as filter. Only those specified traits of digitalSouls will be used during recommendation calculation. |
 
 #### Response Body
 
@@ -50,15 +50,15 @@ The response body is still application/json. It could have the following fields:
 
 | Field            | Type                            | Description                                                  |
 | ---------------- | ------------------------------- | ------------------------------------------------------------ |
-| result           | List<DigitalSelfRecommendation> | An list of recommend similar digitalSelfs.                   |
+| result           | List<DigitalSoulRecommendation> | An list of recommend similar digitalSouls.                   |
 | similarityMatrix | List<List<Number>>              | The orthogonal matrix about similarity of all digitalSouls (the requested digitalSoul and result digitalSouls). The matrix represents the similarity of each digitalSoul to others. |
 
-The DigitalSelfRecommendation is a HashMap with the following fields:
+The `DigitalSoulRecommendation` is a HashMap with the following fields:
 
 | Field      | Type   | Description                                                  |
 | ---------- | ------ | ------------------------------------------------------------ |
-| address    | String | An address of blockchain which represent a digitalSelf user. |
-| similarity | Number | An float number from 0 (included) to1 (included) that represents the similarity of the digitalSelf to the requested digitalSelf. |
+| address    | String | Wallet address which represent a digitalSoul user. |
+| similarity | Number | An float number from 0 (included) to 1 (included) that represents the similarity of the digitalSoul to the requested digitalSoul. |
 
 ### Example
 
@@ -67,7 +67,7 @@ Here is an example of querying similarity recommendation of specific traits comb
 ```
 {
   "digitalSelf": {
-      "address": "0x8e...b5bc",
+      "address": "0x8e73e96F1380d0D3a785492f733726366354b5bc",
   },
   "options": {
       "sort": "desc",
@@ -79,7 +79,6 @@ Here is an example of querying similarity recommendation of specific traits comb
       "traits": [
           "creativity",
           "critical_thinking",
-          ...
           "inhibitory_control",
           "initiative"
       ]
@@ -87,21 +86,21 @@ Here is an example of querying similarity recommendation of specific traits comb
 }
 ```
 
-It could get the following 3 digitalSelfs that are most similar with requested digitalSelf
+It could get the following 3 digitalSouls that are most similar with requested one. The API will also return the similarityMatrix for those 4 digitalSouls (requested one as first, and along with 3 recommendations).
 
 ```
 {
     "result": [
         {
-            "address": "0xbab2...accd",
+            "address": "0x73eAb58D155dd81e530e0F0A3527E7d1b47612d8", 
             "similarity": 0.9977684184341823
         },
         {
-            "address": "0xb08f...0863",
+            "address": "0xeBeD0BF2701e905b4C576B3dC943D797bAc226ed",
             "similarity": 0.9960226259398527
         },
         {
-            "address": "0x562...f645",
+            "address": "0x8f244389cb752e763b615658e175cfbb5542a8ec",
             "similarity": 0.9947335705758
         }
     ],
@@ -152,11 +151,22 @@ Requested body shall have Content-Type of application/json. It could have the fo
 
 | Field        | Type              | Description                                                  |
 | ------------ | ----------------- | ------------------------------------------------------------ |
-| digitalSouls | List<DigitalSoul> | The digitalSoul set for similarity matrix calculation.       |
-| options      | HashMap           | The options for the similarityMatrix calculation. (It is empty for now) |
-| filter       | HashMap           | The filter option for the result of recommendation. It could |
+| digitalSelves | List<DigitalSoul> | The set of digitalSouls for similarity matrix calculation.       |
+| options      | HashMap           | The options for the similarity matrix calculation. (It is empty for now) |
+| filter       | HashMap           | The filter option to specify inputs for recommendation engine. |
 
-For definition of DigitalSoul, please refer to above sections.
+The `DigitalSoul` type is a HashMap with either an address field or a traits field.
+
+| Field   | Type                    | Description                                                  |
+| ------- | ----------------------- | ------------------------------------------------------------ |
+| address | String                  | Wallet address which represent a digitalSoul user. |
+| traits  | HashMap<String, Number> | A traits specification with trait id as key and score (0 ~ 100) as value, which represents a virtual digitalSoul. |
+
+The `filter` field could have the following subfields:
+
+| Field  | Type         | Description                               |
+| ------ | ------------ | ----------------------------------------- |
+| Traits | List<String> | A list of trait ids that works as filter. Only those specified traits of digitalSouls will be used during recommendation calculation. |
 
 #### Response Body
 
@@ -164,8 +174,8 @@ The response body is still application/json. It could have the following fields:
 
 | Field       | Type               | Description                                                  |
 | ----------- | ------------------ | ------------------------------------------------------------ |
-| matrixData  | List<List<Number>> | The similarity matrix (List<Number>) of each DigitalSoul to all DigitalSouls. The matrix represents the similarity in each traits of corresponding result to requested digitalSelf |
-| matrixIndex | List               | An list of index of each DigitalSoul. It could be String if the DigitalSoul is an address, and will be Integer if the DigitalSoul is a traits combination. |
+| matrixData  | List<List<Number>> | The orthogonal matrix about similarity of all digitalSouls. The matrix represents the similarity of each digitalSoul to others. |
+| matrixIndex | List               | A list of digitalSouls' index. It could be String if the digitalSoul is wallet address, and will be corresponding (integeral) index within requested data if the digitalSoul is traits specification. |
 
 ### Example
 
@@ -177,23 +187,21 @@ Here is an example of querying similarity matrix of a digitalSoul set consists o
         {
             "traits": {
                 "learning_ability": 76.35,
-                ...
                 "willingness_to_try": 74.75,
                 "parmeus_poc_28": 61.400846802234014
             }
         },
         {
-            "address": "0xbeac...99412"
+            "address": "0xeBeD0BF2701e905b4C576B3dC943D797bAc226ed"
         },
         {
-            "address": "0xc8e2...d415"
+            "address": "0x8f244389cb752e763b615658e175cfbb5542a8ec"
         }
     ],
     "filter": {
         "traits": [
             "baseball_pref",
             "basketball_pref",
-            ...
             "inhibitory_control",
             "initiative"
         ]
@@ -227,8 +235,8 @@ It could get the following similarity matrix.
   ],
   "matrixIndex": [
     0,
-    "0xbeac...99412",
-    "0xc8e2...d415"
+    "0xeBeD0BF2701e905b4C576B3dC943D797bAc226ed",
+    "0x8f244389cb752e763b615658e175cfbb5542a8ec"
   ]
 }
 ```
@@ -262,22 +270,22 @@ The response body is application/json. It could have the following fields:
 | Field          | Type   | Description                                         |
 | -------------- | ------ | --------------------------------------------------- |
 | pid            | String | The ParmeusID of the digitalSoul                    |
-| primaryAddress | String | The primary block chain address of the digitalSoul. |
+| primaryAddress | String | The wallet address that works as primary address of the digitalSoul. |
 
 ### Example
 
-Here is an example that request parmeus identity of concrete address
+Here is an example that request parmeus identity of wallet address
 
 ```
-GET /api/1/identity/addresses/0xbab2...accd
+GET /api/1/identity/addresses/0xE473e96F1380d0D3a785492f7337263663548bf6
 ```
 
-The response will be as follows. The primaryAddress is the same as requested address which implies it is just the primaryAddress of the digitalSoul.
+The response will be as follows. The primaryAddress is the crypted for privacy consideration.
 
 ```
 {
-  pid: "xxx",
-  primaryAddress: "xxx" // Crypted address
+  pid: "did:parmeus:f3eb0088a8111cda71ea49b4694b2650",
+  primaryAddress: "U2FsdGVkX18s4Kafo9qrOabkBIHj6JZ5M3ci8NHZfxe23uHJAX3IUNQtXMR01qoolIW9/yeLwdWrOg==" // Crypted address
 }
 ```
 
@@ -299,7 +307,7 @@ The following parameters could be used in the request
 
 | Field   | Type   | Description                                           |
 | ------- | ------ | ----------------------------------------------------- |
-| address | String | The concrete blockchain address of target digitalSoul |
+| address | String | The wallet address of target digitalSoul |
 | type    | String | The badge (Parmeus Soul Bound Token) type to validate |
 |         |        |                                                       |
 
@@ -312,13 +320,13 @@ The response body is application/json. It could have the following fields:
 | pid   | String  | The ParmeusID of the digitalSoul                    |
 | badge | HashMap | The badge information if the user own such a badge. |
 
-The badge field could have the following subfields.
+The `badge` field could have the following subfields.
 
 | Field       | Type    | Description                                                |
 | ----------- | ------- | ---------------------------------------------------------- |
 | type        | String  | The type of the badge.                                     |
 | unlocked    | Boolean | If the badge has been unlocked.                            |
-| unlockedAt  | String  | The DateTime string when the badge was granted to the user |
+| unlockedAt  | String  | The DateTime string when the badge was granted to the digitalSoul |
 | unlockedVer | String  | The unlock version of the badge.                           |
 
 ### Example
@@ -326,15 +334,21 @@ The badge field could have the following subfields.
 Here is an example that request parmeus identity of concrete address
 
 ```
-GET /api/1/identity/addresses/0xbab2...accd
+GET /api/1/identity/addresses/0xE473e96F1380d0D3a785492f7337263663548bf6/psbts/badge_1
 ```
 
-The response will be as follows. The primaryAddress is the same as requested address which implies it is just the primaryAddress of the digitalSoul.
+The response will be as follows. It indicate the user own badge_1 type badge which is unlocked at 2022-08-31. The badge has unlockVersion 0.1 and is currently in unlocked status.
 
 ```
 {
-  pid: "xxx",
-  primaryAddress: "xxx" // Crypted address
+  pid: "did:parmeus:f3eb0088a8111cda71ea49b4694b2650",
+  badge: 
+    {
+      type: "badge_1",
+      unlocked: true,
+      unlockedAt: "2022-08-31",
+      unlockedVer: "0.1"
+    }
 }
 ```
 
