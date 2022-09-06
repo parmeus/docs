@@ -1,3 +1,10 @@
+<style>
+    img[alt="Digital Soul Capability"] {
+        width: 80%;
+        margin-top: 40px;
+    }
+</style>
+
 # Digital Soul
 
 ## What is Digital Soul?
@@ -32,6 +39,5 @@ A digital soul with only low-level abilities is incomplete. Just like a superman
 * _For the digital soul owner_, digital soul can be like a digital companion who knows you, thinks like you, decides like you, acts like you, understands your preferences, and accompanies you every day.
 - _For individual users_ of the Parmeus ecosystem, you can specify some conditions to quickly, simply and efficiently find people similar to you in terms of preferences, skills or personality; and get some meaningful suggestions and ideas from them. Inspired.
 - _For projects_ that use the Parmeus ecosystem, they can search for qualified digital souls and provide suitable recommendations and airdrops in various fields.
-- _For developers_, through Parmeus SDK or RESTful API, with the authorization of the owner of digital soul, customized query, recommendation, authentication and peripheral functions can be realized.
-
+- _For developers_, through Parmeus SDK or RESTful API, with the authorization of the owner of digital soul, customized query, recommendation, authentication and peripheral functions can be realized. 
 ![Digital Soul Capability](imgs/ds-ability.png)
