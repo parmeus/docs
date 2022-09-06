@@ -1,9 +1,3 @@
-<style type="text/css">
-    img {
-        width: 440px;
-    }
-</style>
-
 # End-User Guide
 
 Parmeus provides a built-in game world where allows users to initialize digital souls. Please follow this step-by-step instruction to kick-off this digital soul building journey.
