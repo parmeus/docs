@@ -2,7 +2,7 @@
 <!-- ![Logo](/imgs/parmeus-logo-white.png) -->
 ## Dev-Center
 * [Overview](README.md)
-* [Principle](principle.md)
+<!-- * [Principle](principle.md) -->
 * [Concept](#)
   * [Digital Soul](concept/digital-soul.md)
   * [Identity](concept/identity.md)
