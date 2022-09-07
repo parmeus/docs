@@ -2,7 +2,7 @@
 <!-- ![Logo](/imgs/parmeus-logo-white.png) -->
 ## Dev-Center
 * [Overview](README.md)
-* [Principle](principle.md)
+<!-- * [Principle](principle.md) -->
 * [Concept](#)
   * [Digital Soul](concept/digital-soul.md)
   * [Identity](concept/identity.md)
@@ -29,9 +29,10 @@
     * [RESTful API](guide/reference/restful.md)
     * [Node SDK](guide/reference/sdknode.md)
 * [Protocol](#)
-  * [Technical Architecture](protocol/tech-arch.md)
+  * [Tech Architect](protocol/tech-arch.md)
   * [Proof of Identity](protocol/proof-of-id.md)
   * [Proof of Soulbound](protocol/proof-of-soulbound.md)
-  * [Proof of Connection](protocol/proof-of-connection)
+  * [Proof of Connection](protocol/proof-of-connection.md)
+* [Community](community.md)
 * [Playground](playground.md)
 * [Changelog](changelog.md)
