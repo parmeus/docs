@@ -10,7 +10,7 @@ Parmeus provides a [playground](https://parmeus-play-ground.test.moblab-us.cn) f
 
 ## Single Match
 
-Single Match provide the function to find similar digitalSouls of specific digitalSoul. Please refer to Recommendation of Similarities for specification of the API.
+Single Match provide the function to find similar digitalSouls of specific digitalSoul. Please refer to [Recommendation of Similarities API](guide/reference/restful?id=recommendation-of-similarities) for specification of the API.
 
 User shall do the following steps to make the search
 * Input wallet address
@@ -21,11 +21,12 @@ In the result, user could found some similar digitalSouls with their similaritie
 ![Parmeus Playground Overview](imgs/parmeus-playground-singlematch.jpg)
 
 User could check the source code of the request by click the `View Code` link.
+
 ![Parmeus Playground Overview](imgs/parmeus-playground-singlematch-result.jpg)
 
 ## Team Match
 
-Team Match provides function to get the similarity matrix about a set of DigitalSouls. Please refer to [Validate Badge of User API](guide/reference/restful?id=validate-badge-of-user) for specification of the API.
+Team Match provides function to get the similarity matrix about a set of DigitalSouls. Please refer to [Get Similarity Matrix of DigitalSouls API](guide/reference/restful?id=get-similarity-matrix-of-digitalsouls) for specification of the API.
 
 User could do the following steps to make the search
 * Input series of wallet address separated by `;`
@@ -36,11 +37,12 @@ In the result, user could check the orthogonal matrix about similarity of all di
 ![Parmeus Playground Overview](imgs/parmeus-playground-teammatch.jpg)
 
 User could check the source code of the request by click the `View Code` link.
+
 ![Parmeus Playground Overview](imgs/parmeus-playground-teammatch-result.jpg)
 
 ## Parmeus Identity
 
-Parmeus Identity provide function to get Parmeus Identification of specific wallet address including pid (ParmeusID), and primaryAddress. Please refer to Recommendation of Similarities for specification of the API.
+Parmeus Identity provide function to get Parmeus Identification of specific wallet address including pid (ParmeusID), and primaryAddress. Please refer to [Get Parmeus Identity API](guide/reference/restful?id=get-parmeus-identity) for specification of the API.
 
 User could input the wallet address and make the search. The result will be shown below including:
 * pid: The parmeus id of the address
@@ -49,6 +51,7 @@ User could input the wallet address and make the search. The result will be show
 ![Parmeus Playground Overview](imgs/parmeus-playground-identity.jpg)
 
 User could check the source code of the request by click the `View Code` link.
+
 ![Parmeus Playground Overview](imgs/parmeus-playground-identity-result.jpg)
 
 ## Is Human
@@ -64,5 +67,6 @@ User could input the wallet address and make the search. The result will be show
 ![Parmeus Playground Overview](imgs/parmeus-playground-human.jpg)
 
 User could check the source code of the request by click the `View Code` link.
+
 ![Parmeus Playground Overview](imgs/parmeus-playground-human-result.jpg)
 
