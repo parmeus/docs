@@ -29,7 +29,7 @@
     * [RESTful API](guide/reference/restful.md)
     * [Node SDK](guide/reference/sdknode.md)
 * [Protocol](#)
-  * [Tech Architect](protocol/tech-arch.md)
+  * [Tech Stack](protocol/tech-stack.md)
   * [Proof of Identity](protocol/proof-of-id.md)
   * [Proof of Soulbound](protocol/proof-of-soulbound.md)
   * [Proof of Connection](protocol/proof-of-connection.md)

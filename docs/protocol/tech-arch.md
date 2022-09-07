@@ -1,3 +1,0 @@
-# Tech Architect
-
-The core of Parmeus is an ecosystem built on the basis of digital soul. In the ecosystem, users can build, cultivate, train, and own their unique digital souls; in the ecosystem formed by digital souls, each digital soul is growing, connecting, and sharing its own personality, preferences, and skills. In order to build this whole ecology, here is a brief introduction to our technical architecture model.
