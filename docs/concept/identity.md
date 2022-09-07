@@ -1,1 +1,11 @@
 # Identity
+
+Parmeus is a decentralized identity protocol. It enables individuals to be truly permissionless, autonomous, and portable. This identity system relies on all the underlying trait capabilities, life data, and many soulbound properties possessed by each user's carefully trained digital soul. At the same time, it aims to connect individuals closely with the communities they join and earn rewards based on their training, participation, and being called.
+
+![Identity](imgs/id-overview.png)
+
+At an abstract level, Parmeus Identity has the following characteristics:
+
+1. **Build on the individual's personality, abilities, soft skills**. This is the most important feature that distinguishes Parmeus ID from other DID projects. Many projects are built on the visible contributions of individuals, custom reputation systems, and commitments, which are slightly superficial features. Parmeus has used his years of experience in behavioral analysis to discover the underlying characteristics of individuals and provide more imagination space for third-party projects.
+2. **Complete decentralization**, allowing users to have complete control over their own DID (short for Decentralized ID). Different from the identity system of Web 2.0, after users log in to different platforms with Parmeus ID, the information is portable. Imagine your music preferences on platform A will be brought to platform B with Parmeus ID without retraining.
+3. **Soulbound** is the philosophy that Parmeus ID adheres to. A person has only one soul, and all the abilities of a user to train a digital soul will represent the user's soulbound identity to travel in the world of web 3. For individuals, on one hand, user can bind multiple wallet addresses to this unique Parmeus ID, and these bound wallet addresses seamlessly possess the special ability of the digital soul; on the other hand, it can be used as a certificate for you to pass the threshold of each project. For project parties, these Soulbound capabilities can be very simple and convenient to customize task threshold standards.
