@@ -6,7 +6,7 @@ Parmeus provides a [explorer](https://parmeus.github.io/explorer) for user to tr
 * Parmeus Identity: To get Parmeus identification including pid (ParmeusID), and primaryAddress.
 * Is Human: To validate whether a user is Human.
 
-![Parmeus Explorer Overview](imgs/parmeus-explorer-overview.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-overview.png)
 
 ## Single Match
 
