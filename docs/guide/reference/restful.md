@@ -67,13 +67,12 @@ Here is an example of querying similarity recommendation of specific traits comb
 ```
 {
   "digitalSelf": {
-      "address": "0x8e73e96F1380d0D3a785492f733726366354b5bc",
+      "address": "0xE473e96F1380d0D3a785492f7337263663548bf6"
   },
   "options": {
       "sort": "desc",
       "count": 3,
       "similarityMatrix": true
-      }
   },
   "filter":{
       "traits": [
