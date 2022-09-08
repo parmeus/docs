@@ -1,12 +1,12 @@
-# Playground
+# Explorer
 
-Parmeus provides a [playground](https://parmeus-play-ground.test.moblab-us.cn) for user to try APIs conveniently and intuitively. User could select function in the drop down list. It supports 4 functions now:
+Parmeus provides a [explorer](https://parmeus.github.io/explorer) for user to try APIs conveniently and intuitively. User could select function in the drop down list. It supports 4 functions now:
 * Single Match: To find some similar digitalSouls of specific digitalSoul.
 * Team Match: To get the similarity matrix about a set of DigitalSouls.
 * Parmeus Identity: To get Parmeus identification including pid (ParmeusID), and primaryAddress.
 * Is Human: To validate whether a user is Human.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-overview.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-overview.jpg)
 
 ## Single Match
 
@@ -18,11 +18,11 @@ User shall do the following steps to make the search
 
 In the result, user could found some similar digitalSouls with their similarities to the requested one.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-singlematch.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-singlematch.jpg)
 
 User could check the source code of the request by click the `View Code` link.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-singlematch-result.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-singlematch-result.jpg)
 
 ## Team Match
 
@@ -34,11 +34,11 @@ User could do the following steps to make the search
 
 In the result, user could check the orthogonal matrix about similarity of all digitalSouls. The matrix represents the similarity of each digitalSoul to others.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-teammatch.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-teammatch.jpg)
 
 User could check the source code of the request by click the `View Code` link.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-teammatch-result.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-teammatch-result.jpg)
 
 ## Parmeus Identity
 
@@ -48,11 +48,11 @@ User could input the wallet address and make the search. The result will be show
 * pid: The parmeus id of the address
 * primaryAddress: The wallet address (in encypted format) that works as primary address of the digitalSoul. User could click the unlock button to check decrypted address.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-identity.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-identity.jpg)
 
 User could check the source code of the request by click the `View Code` link.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-identity-result.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-identity-result.jpg)
 
 ## Is Human
 
@@ -64,9 +64,9 @@ User could input the wallet address and make the search. The result will be show
 * unlockedTime: The time when the user get the token.
 * unlockedVer: Unlocked version of the token.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-human.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-human.jpg)
 
 User could check the source code of the request by click the `View Code` link.
 
-![Parmeus Playground Overview](imgs/parmeus-playground-human-result.jpg)
+![Parmeus Explorer Overview](imgs/parmeus-explorer-human-result.jpg)
 

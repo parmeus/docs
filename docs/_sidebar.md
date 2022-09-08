@@ -27,5 +27,5 @@
   * [Proof of Soulbound](protocol/proof-of-soulbound.md)
   * [Proof of Connection](protocol/proof-of-connection.md)
 * [Community](community.md)
-* [Playground](playground.md)
+* [Explorer](explorer.md)
 * [Changelog](changelog.md)
