@@ -2,11 +2,7 @@
 
 ## Introduction
 
-Parmeus is a decentralized network for users to create, grow and own their digital selves. We
-define digital self as a person’s soulbound traits across domains of personality, non-cognitive
-qualities and preferences. With such a rich digital representation of who we are, the network
-generates value by encouraging and matching its participants, individuals or organizations, to
-contribute and gain information about themselves and others.
+Parmeus is a decentralized network for users to create, grow and own their digital selves. We define digital soul as a person’s soulbound traits across domains of personality, non-cognitive qualities and preferences. With such a rich digital representation of who we are, the network generates value by encouraging and matching its participants, individuals or organizations, to contribute and gain information about themselves and others.
 
 Parmeus also describes a data standard, storage, soulbound identity as the foundation of a seamless and secure digital social experience in Web3.
 

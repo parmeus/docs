@@ -58,25 +58,25 @@ Here we introduce some terminologies.
 1. *Clarity* is how stable your profile gem is, the more training, the more stable.
 1. *Color* is your avatar generated based on your digital soul.
 
-##### Life Inspector
+##### Soul Discoverer
 
 In this section, we provide our well-designed game packs, and we collect your behaviors on the premise of simply satisfying the fun, and give you some advice in terms of workplace, psychology, financial quotient, etc. More game packs are on the way.
 
-![Parmeus Life Inspector](imgs/parmeus-life-inspector.png)
+![Parmeus Soul Discoverer](imgs/parmeus-life-inspector.png)
 
-##### Life Explorer
+##### Soul Explorer
 
 **This is still in beta now, will publish shortly.** In this part, we will provide a game park with various mini-games to learn about brain power, mathematics, music, film and television, personality and other characteristics, and greatly help Parmeus to build your own digital soul in the shortest possible time.
 
 ![Parmeus Life Explorer](imgs/parmeus-life-explorer.png)
 
-##### Life Curator
+##### Soul Curator
 
 **This is still in beta now, will publish shortly.** In this section, Parmeus will follow your authorization to access your social community. After our powerful AI processing, Parmeus continuously build your digital soul, making it more stable and powerful. In the meantime, your social data is also properly and safely kept in your decentralized storage space.
 
 ![Life Curator](imgs/parmeus-life-curator.png)
 
-##### Life Search
+##### Soul Search
 
 In this section, Parmeus offers different searches to find what your soulmate likes. Initially, the search results may be inaccurate, but we believe it will get better as your digital soul grows stronger and other digital souls contribute.
 

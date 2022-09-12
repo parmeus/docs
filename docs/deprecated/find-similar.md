@@ -1,11 +1,11 @@
 # Find similar digital selves
 
-Find similar digital selves by a specific digital self id, given traits, or anything that can describe a digital self.
+Find similar digital selves by a specific digital soul id, given traits, or anything that can describe a digital soul.
 
 ### API definition
 
 ```js
-// @param id|traits|idOrTraits - a digital self identity or a hashmap with trait id as key and trait score as value
+// @param id|traits|idOrTraits - a digital soul identity or a hashmap with trait id as key and trait score as value
 // @param options - the options to filter the returning result
 // @param traitsFilter - a delegate function to filter whether the traits are reached to the criteria
 // @return - an array of digital selves that similar to a specific one
@@ -14,7 +14,7 @@ async function findDigitalSelves(digitalSelfvs: DigitalSelf[] ,options: DigitalS
 ```
 
 ### Example 1: find similar digital selves by a specified traits
-Find similar digital selves by a specified digital self.
+Find similar digital selves by a specified digital soul.
 
 <!-- tabs:start -->
 
