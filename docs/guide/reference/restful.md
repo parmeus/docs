@@ -3,7 +3,7 @@
 # RESTful API
 
 ## Recommendation of Similarities
-This API is used for getting some similarities recommendation (digitalSouls) of specific digitalSoul.
+This API is used for generating similarity recommendations for a specific Digital Soul.
 
 ### Structure
 
@@ -20,14 +20,14 @@ Requested body shall have Content-Type of application/json. It could have the fo
 | Field       | Type    | Description                                                  |
 | ----------- | ------- | ------------------------------------------------------------ |
 | digitalSelf | DigitalSoul | The DigitalSoul which is specified by a concrete address or traits specification |
-| options     | HashMap | The options for the recommendation query. It could support subfields like sort, count et. |
-| filter      | HashMap | The filter option to specify inputs for recommendation engine. |
+| options     | HashMap | The options for the recommendation query. It could support subfields like sort, count etc. |
+| filter      | HashMap | The filter option to specify inputs for the recommendation engine. |
 
 The `DigitalSoul` type is a HashMap with either an address field or a traits field.
 
 | Field   | Type                    | Description                                                  |
 | ------- | ----------------------- | ------------------------------------------------------------ |
-| address | String                  | Wallet address which represent a digitalSoul user. |
+| address | String                  | Wallet address which represents a digitalSoul user. |
 | traits  | HashMap<String, Number> | A traits specification with trait id as key and score (0 ~ 100) as value, which represents a virtual digitalSoul. |
 
 The `option` field could have the following subfields:
@@ -36,13 +36,13 @@ The `option` field could have the following subfields:
 | ---------------- | ------- | ------------------------------------------------------------ |
 | sort             | String  | How to sort result similarities. It could be "desc" (sort by similarity descend order) or "asc" (sort by similarity ascend order). |
 | count            | Integer | How many results are expected.                               |
-| similarityMatrix | Boolean | Whether return similarityMatrix. It is the orthogonal matrix of the requested digitalSoul and result digitalSouls. The matrix represents the similarity of each digitalSoul to others. |
+| similarityMatrix | Boolean | Whether to return similarityMatrix. It is the orthogonal matrix of the requested digitalSoul and result digitalSouls. The matrix represents the similarity of each digitalSoul to others. |
 
 The `filter` field could have the following subfields:
 
 | Field  | Type         | Description                               |
 | ------ | ------------ | ----------------------------------------- |
-| Traits | List<String> | A list of trait ids that works as filter. Only those specified traits of digitalSouls will be used during recommendation calculation. |
+| Traits | List<String> | A list of trait ids that works as a filter. Only those specified traits of digitalSouls will be used during recommendation calculation. |
 
 #### Response Body
 
@@ -50,7 +50,7 @@ The response body is still application/json. It could have the following fields:
 
 | Field            | Type                            | Description                                                  |
 | ---------------- | ------------------------------- | ------------------------------------------------------------ |
-| result           | List<DigitalSoulRecommendation> | An list of recommend similar digitalSouls.                   |
+| result           | List<DigitalSoulRecommendation> | A list of recommend digitalSouls based on similarity.                   |
 | similarityMatrix | List<List<Number>>              | The orthogonal matrix about similarity of all digitalSouls (the requested digitalSoul and result digitalSouls). The matrix represents the similarity of each digitalSoul to others. |
 
 The `DigitalSoulRecommendation` is a HashMap with the following fields:
@@ -58,7 +58,7 @@ The `DigitalSoulRecommendation` is a HashMap with the following fields:
 | Field      | Type   | Description                                                  |
 | ---------- | ------ | ------------------------------------------------------------ |
 | address    | String | Wallet address which represent a digitalSoul user. |
-| similarity | Number | An float number from 0 (included) to 1 (included) that represents the similarity of the digitalSoul to the requested digitalSoul. |
+| similarity | Number | A float number from 0 (included) to 1 (included) that represents the similarity of the digitalSoul to the requested digitalSoul. |
 
 ### Example
 
@@ -85,7 +85,7 @@ Here is an example of querying similarity recommendation of specific traits comb
 }
 ```
 
-It could get the following 3 digitalSouls that are most similar with requested one. The API will also return the similarityMatrix for those 4 digitalSouls (requested one as first, and along with 3 recommendations).
+It could get the following 3 digitalSouls that are most similar with the requested one. The API will also return the similarityMatrix for those 4 digitalSouls (requested one as first, and along with 3 recommendations).
 
 ```
 {
@@ -134,7 +134,7 @@ It could get the following 3 digitalSouls that are most similar with requested o
 
 ## Get Similarity Matrix of DigitalSouls
 
-This API is used for getting the similarity matrix about a set of DigitalSouls.
+This API is used for getting the similarity matrix from a set of DigitalSouls.
 
 ### Structure
 
@@ -330,7 +330,7 @@ The `badge` field could have the following subfields.
 
 ### Example
 
-Here is an example that request parmeus identity of concrete address
+Here is an example that requests the Parmeus identity of concrete address
 
 ```
 GET /api/1/identity/addresses/0xE473e96F1380d0D3a785492f7337263663548bf6/psbts/badge_1
