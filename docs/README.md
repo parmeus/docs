@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Parmeus is a decentralized network for users to create, grow and own their digital selves. We define digital soul as a person’s soulbound traits across domains of personality, non-cognitive qualities and preferences. With such a rich digital representation of who we are, the network generates value by encouraging and matching its participants, individuals or organizations, to contribute and gain information about themselves and others.
+Parmeus is a decentralized network for users to create, grow, and own their digital selves. We define a Digital Soul as a collection of traits across domains of personality, non-cognitive qualities, and preferences, forming a unique digital identity. With such a rich digital representation of who we are, the network generates value by encouraging its participants - individuals and organizations - to contribute and gain information about themselves and others, and matching them with each other as appropriate.
 
-Parmeus also describes a data standard, storage, soulbound identity as the foundation of a seamless and secure digital social experience in Web3.
+Parmeus also describes a data storage standard - a soulbound identity - as the foundation of a seamless and secure digital social experience in web3.
 
-In Parmeus world, user could build digital-soul during game playing; with digial-soul, user could share life experience, knowledge to social and earn.
+Parmeus users can build their digital souls through a selection of mini-games, share their experiences and knowledge across their social network, and earn rewards as part of their network activity.
 
 ## The Essence of Parmeus
 
@@ -16,12 +16,12 @@ Parmeus has a long-term, persistent, and continuously optimized AI computing mod
 
 ### Interpretable
 
-Parmeus has designed an explanatory digital soul system based on decades of business experience in behavioral science and economics, supporting the entire system. It provides a solid foundation for multi-class upper-layer applications. Such as Soulbound Token, query similar groups under specific conditions, and recommendation ability, etc.
+Parmeus has designed an intuitive digital soul system based on decades of business experience in behavioral science and economics, which supports the entire system. It provides a solid foundation for multi-class upper-layer applications, such as Soulbound tokens, querying similar groups under specific conditions, recommendation ability, etc.
 
 ### Efficient on-chain storage
 
-The unique digital soul of Parmeus is designed and stored in a flexible mutable NFT manner. We uphold the spirit of Web3 and return the digital soul model to users. As users continue to train digital soul, we also seamlessly and continuously process the data and properly store it in a decentralized database.
+The unique digital soul of Parmeus is designed and stored as a non-transferrable NFT. Every user owns and controls their own digital ID, and the NFTs that make up a digital soul. As the user continues to develop their digital soul, we seamlessly and continuously process the data and securely store it in a decentralized database.
 
 ### Flexible level of access
 
-Parmeus properly encrypts the user's digital soul. Ensure that users can access in a way that they can control. Digital soul can be divided into public data, relatives/friends data and private data. Users can customize their own access rules for digital soul in the process of sharing and earning according to their own needs.
+Parmeus securely encrypts the user's digital soul, and ensures users can access it in a way that they can control. A digital soul can be divided into public data, social data, and private data. Customizable access rules allow the user to fine-tune access to, and monetization of, their data according to their own needs.
