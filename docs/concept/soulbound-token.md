@@ -1,6 +1,6 @@
 # Soulbound Token
 
-Digital Souls and soulbound tokens are the core component of Parmeus. We have built the infrastructure for everyone  to create, cultivate and develop a Digital Soul. During the process of playing, training, growing and unlocking achievements, you can gradually obtain your own soulbound tokens that represent your unique characteristics and achievements. Users can mint Parmeus Soulbound Tokens (PSBTs) which will serve as keys to unlock access to other dapps, communities, DAOs and projects and other web3 applications.
+Digital Souls and Soulbound tokens are the core component of Parmeus. We have built the infrastructure for everyone  to create, cultivate and develop a Digital Soul. During the process of playing, training, growing and unlocking achievements, you can gradually obtain your own Soulbound tokens that represent your unique characteristics and achievements. Users can mint Parmeus Soulbound Tokens (PSBTs) which will serve as keys to unlock access to other dapps, communities, DAOs and projects and other web3 applications.
 
 Parmeus Soulbound Protocol offers two types of PSBT.
 
