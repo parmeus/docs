@@ -23,7 +23,7 @@ Here are some examples of badges.
 
 By looking at the footprints left by users in the Parmeus ecosystem, our machine learning model works synchronously discovering your talents in psychology, business, financial matters, and other fields. Parmeus automatically issues a badge to the user when it finds that you meet a certain standard. This type of badge is valid for a period of time after it is obtained and will not change.
 
-As an example, according to research published by bot detection tool Jigger, a large portion of Web3 activity is driven by bots, with GameFi projects receiving the most infections - in some games non-human players account for more than 80% of the user base.
+As an example, according to research published by bot detection tool Jigger, a large portion of web3 activity is driven by bots, with GameFi projects receiving the most infections - in some games non-human players account for more than 80% of the user base.
 
 A useful PSBT provided by Parmeus is Humanity, which judges the risk of whether the account is a robot by assessing a user's recent decentralized behavior in the Parmeus ecosystem. This is a great tool for 3rd party projects and airdrops who want to ensure they are reaching real users.
 There are many more roles for PSBTs, which are in development.
