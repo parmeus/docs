@@ -10,4 +10,4 @@ The Parmeus App currently has a search prototype. Through the sharing of video, 
 ![Search Flow](imgs/sn-search-flow.gif)
 
 ## Connection Based Network
-With the similarity based network, Parmeus allows users to better discover each other; it also provides a set of tools to establish a long-term relationship with other digital souls in a decentralized manner.
+With the similarity based network, Parmeus allows users to better discover each other; it also provides a set of tools to establish a long-term relationship with other Digital Souls in a decentralized manner.
