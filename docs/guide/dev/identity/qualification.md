@@ -1,8 +1,11 @@
 # Qualification
  
-As important assets of digitalSoul, Parmeus supports rich kind of PSBTs. Some of them are proof of achievement, some are proof of attendence, and there are parmeus featured proof of personality, abilities, soft skills. Benefits from the non transferrable nature of SoulBoundToken, PSBT works perfectly for Qualification validation.
+Parmeus supports a rich assortment of PSBTs as an important component of the Digital Soul. PSBTs include proof of achievement, proof of attendance, or Parmeus Soulbound tokens that represent characteristics including personality, abilities, and soft skills. Benefiting from the non-transferrable nature of Soulbound tokens, PSBTs work perfectly for qualification validation.
 
-A DAO may validate qualification of applicants at entrance. For example, A photographic DAO may require some achievement in photograhic, and some qualifications such as good-teamworker, eager-to-share as requirements. DAO could also use the qualification for organization optimization, and candidates selecting.
+A DAO may validate the qualifications of applicants upon entrance. For example, a photography DAO may require some achievement in photography, and qualities such as working well in a team could easily be included as requirements. DAOs could also use the qualifications for organization optimization and candidate selection.
+
+College or university courses could set attendance requirements, with a minimum number of attendance PSBTs collected over a period of time. A professional or industry association DAO could require a minimum threshold of industry engagement or professional development activities: tracked by PSBTs that represent engagement at industry events, skills development, or community participation.
+
 
 The following example shows how to integrate PSBT validation functions in node
 
