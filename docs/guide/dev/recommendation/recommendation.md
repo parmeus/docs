@@ -1,10 +1,10 @@
 # Recommendation
 
-Parmeus is a decentralized identity protocol. It enables individuals to be truly permissionless, autonomous, and portable. Based on the Digital Souls which created and nurtured by users, Parmeus presents a virtual social graph constructed through the invisible relationship of similarity.
+Parmeus is a decentralized identity protocol. It enables individuals to connect permissionlessly, autonomously, while keeping ownership of their own data that remains portable and interoperable. Based on the Digital Souls which are created and nurtured by users, Parmeus presents a virtual social graph constructed through the network of  relationship of similarity.
 
-Match and Recommendation (based on similarity) is the basic functions supported by the network. 
-* Users can easily match people who are similar to themselves; through purposeful searches, they can consult solutions to people who are similar to themselves, and find solutions that are more suitable for them.
-* Applications can easily match similar people of specific user. Then application can then make recommendation according to similar people's experience.
+Match and Recommendation (based on similarity) are the basic functions supported by the network.
+* Users can easily match with people who are similar to themselves - through purposeful searches, they can connect with people who are similar to themselves, and find solutions that are more suitable for them.
+* Applications can suggest connections between users based on their past experience and on-chain behavior.
 
 The following guide shows how to integrate the single match function in node
 
@@ -13,7 +13,7 @@ const axios = require('axios');
 
 let address = '0xE473...8bf6'; // target address to match
 
-// try match 20 most similar addressesg
+// try match 20 most similar addresses
 let response = await axios.get(`/api/1/recommendation/similarities`, {
   "digitalSelf": {
       "address": address,
@@ -38,4 +38,4 @@ let response = await axios.get(`/api/1/recommendation/similarities`, {
 let similarAddresses = response.data.result.map(i=>i.address);
 ```
 
-Then social applications could prompt the user for connections to those similar addresses; recommend system could get experience of the similar Addresses, and figure out some recommendations for the user.
+Social applications could then prompt the user to make connections with those similar addresses; the recommendation system could compare the experiences of the similar addresses, then determine optimal recommendations for the user.
