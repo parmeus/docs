@@ -1,9 +1,9 @@
 # End-User Guide
 
-Parmeus provides a built-in game world which allows users to create and develop their Digital Souls. Please follow this step-by-step instruction to kick-off this Digital Soul building journey.
+Parmeus provides a built-in game world which allows users to create and develop their Digital Souls. Please follow this step-by-step guide to kick-off this Digital Soul building journey.
 
 ## Setup a Wallet
-To enter the web3 world, you need a wallet. `MetaMask` is the most popular digital wallet specific to Ethereum. Parmeus supports a few other wallets as well, and more to come.
+To enter the world of web3, you need a wallet. MetaMask is the most popular digital wallet on the Ethereum network. Parmeus supports a few other wallets, with more to come.
 
 In this guide, we will use MetaMask as an example to show you how to set up a wallet.
 
@@ -16,7 +16,7 @@ In this guide, we will use MetaMask as an example to show you how to set up a wa
 
 ## Switch Network in Wallet
 
-Parmeus supports Ethereum only currently. Make sure the active network is `Ethereum Mainnet`. You can switch networks by opening MetaMask and clicking at the top of the MetaMask extension. You'll see your current network displayed, click on it and you can select any network from the drop-down list.
+Parmeus currently supports Ethereum only. Make sure the active network is `Ethereum Mainnet`. You can switch networks by opening MetaMask and clicking at the top of the MetaMask extension. You'll see your current network displayed, click on it and you can select any network from the drop-down list.
 ![Switch Network in MetaMask](imgs/metamask-switch-network.jpg)
 
 ## Start Digital Soul Jouney
