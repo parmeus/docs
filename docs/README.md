@@ -26,30 +26,30 @@ Privacy First
 
 ## Parmeus Network Properties
 
-###Representative
+### Representative
 
 Parmeus creates a deep and multifaceted representation of the user's innate personal traits, which provides highly customized and relevant social experiences for the user. The network measures a range of personal traits that represent the multifaceted nature of a person's psychology, covering a wide spectrum of individual differences in cognitive and non-cognitive abilities.
 
-###Generalizable
+### Generalizable
 
 Parmeus's derived data is highly generalizable, based on findings from decades of psychological and behavioral economics research. The data derived from the user's raw data is relevant and useful beyond the contexts from which it was collected, and its utility can immediately be realized for novel applications. This means that experiences with Parmeus can be highly customized for users with no on-chain web3 history, and even for users with little or no available historical web2 data.
 
-###Computationally efficient
+### Computationally efficient
 
 Parmeus's protocol is computationally efficient, with a long-term, persistent, and optimized AI computing model that continuously improves and refines users' derived data from a comprehensive range of raw data. The protocol uses a comprehensive store of raw data to generate a layer of derived data, with only a single score or a handful of scores needing to be accessed from a user's Parmeus ID. This ensures that the protocol is efficient and cost-effective.
 
-###Privacy preserving
+### Privacy preserving
 
 Parmeus uses secure transactions, communication, and data storage, and keeps all personal data and Personal Identifying Information (PII) confidential. All user data is secured, and users have control over how their data is used and shared. The use of Soulbound Token NFTs means that user data is handled in a completely transparent way, giving users complete control over their own data and digital identity.
 
-###Interoperable
+### Interoperable
 
 Parmeus's protocol is chain agnostic and can operate across different chains, as well as applications across different chains. The protocol uses highly abstract ways of representing data, which can be used with any platform, enabling cross-chain interoperability for Parmeus SBTs.
 
-###Interpretable
+### Interpretable
 
 Parmeus provides metrics from the derived data layer that are intuitive and easy for users to understand. The protocol reports meaningful behaviors, preferences, and traits, providing a solid foundation for multi-class upper-layer applications, querying similar groups under specific conditions, recommendation ability, and more. This makes the derived data layer more efficient for storage and retrieval.
 
-###Cost-effective on- and off-chain storage
+### Cost-effective on- and off-chain storage
 
 Parmeus uses a single on-chain, non-transferable NFT (Soulbound Token) to connect off-chain storage of a user's data with on-chain identity, which is the most cost-effective way of enabling users to have control over their own data while maintaining computational efficiency. The derived data layer ensures that retrieval of a user's relevant data is both efficient and cost-effective, with raw data stored securely off-chain and Parmeus continuously processing the data to ensure the derived data layer is the most accurate comprehensive representation of an individual's traits and preferences.
