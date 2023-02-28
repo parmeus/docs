@@ -22,7 +22,14 @@ Deploying social capital can be a powerful way for users to build and enhance th
 
 By leveraging a more nuanced and meaningful representation of individuals, web3 ecosystems can create new opportunities for individuals, groups and decentralized organizations to connect and collaborate. Deploying social capital across web3 can lead to a more diverse, vibrant, and inclusive digital ecosystem that empowers individuals and fosters innovation.
 
-Privacy First
+## Privacy First
+
+Parmeus is built with a focus on preserving individuals' privacy and control over their own data. The network securely encrypts the user's digital self, ensuring that the user has complete control over their data. This approach ensures that users can choose to share it only with those they trust.
+
+The user's digital self is divided into three categories: public data, social data, and private data. Public data includes information that users are willing to share with the general public, such as their username, profile picture, and public posts. Social data includes information that users are willing to share with their friends and contacts, such as their personal interests and preferences. Private data includes sensitive information that users want to keep private, such as their financial information, private communication, and other confidential information.
+
+To ensure that users have complete control over their data, Parmeus provides customizable access rules that allow users to fine-tune access to, and monetization of, their data according to their own needs.
+
 
 ## Parmeus Network Properties
 
