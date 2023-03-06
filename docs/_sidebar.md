@@ -4,7 +4,7 @@
 * [Overview](README.md)
 <!-- * [Principle](principle.md) -->
 * [Concept](#)
-  * [Digital Soul](concept/digital-self.md)
+  * [Digital Self](concept/digital-self.md)
   * [Identity](concept/identity.md)
   * [Soulbound Token](concept/soulbound-token.md)
   * [Social Network](concept/social-network.md)
